@@ -40,4 +40,12 @@ public class ReporterPractice {
 		Reporter.log(mtd.getName()+"end");
 		
 	}
+	
+	@Test
+	public void LaunchBroser(Method mtd) {
+		Reporter.log(mtd.getName()+"Started");
+		Reporter.log("step-1");
+		Reporter.log(mtd.getName()+"end");
+		
+	}
 }
