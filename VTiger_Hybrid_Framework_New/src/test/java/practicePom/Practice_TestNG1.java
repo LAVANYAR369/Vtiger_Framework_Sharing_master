@@ -9,7 +9,10 @@ public class Practice_TestNG1 extends PracticeBaseClass{
 		System.out.println("contact create");
 	}
 	@Test
-	public void DeleteContact() {
+	public void MODIFYContact() {
+		System.out.println("contact create");
+	}
+  public void DeleteContact() {
 		System.out.println("contact create");
 	}
 }
