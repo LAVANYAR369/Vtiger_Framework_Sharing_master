@@ -36,4 +36,9 @@ public class Practice_TestNG1 extends PracticeBaseClass{
 	public void deleteOrg() {
 		System.out.println("delete organisation");
 	}
+	
+	@Test
+	public void orgWithIndustries() {
+		System.out.println("create orgWithIndustries");
+	}
 }
